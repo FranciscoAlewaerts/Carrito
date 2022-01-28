@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62,5;
+}
+
+.navegador{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../Multimedia/nav2.png);
+    background-repeat: repeat;
+;
+}
+.navegador li{
+    display: inline-block;
+    padding: 0 10px 20px;
+}
+
+.logoWeb{
+    height: 75%;
+    width: 75%;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: flex-start;
+}
+
+.txtNav{
+    font-size: 100%;
+    text-decoration: none;
+    color: white
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(../Multimedia/fondo5.png);
+}
+
+.publicidad{
+    height: 100%;
+    width: 100%;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.imProduct{
+    width: 150px;
+    height: 140px;
+    display: flex;
+    align-items: stretch;
+    }
+
+    .producto{
+        background-image: url(../Multimedia/fondo5.png);
+        display: flex;
+        flex-direction: column;
+        justify-content:stretch;
+        align-items: center;
+        margin: 10px 5px;
+        padding: 10px;
+        border: solid 1px black;
+        border-radius: 10px;
+        border-bottom: solid 5px black;
+        height: 320px;
+        width: 30%;
+    }
+    .prTab{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: 20px 10px 20px 10px;
+        padding: 10px;
+        border: solid 5px black;
+        border-radius: 20px;
+    }
+
+    .row{
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+    }
+
+    .titulo{
+        text-align: center;
+    letter-spacing: normal;
+    word-spacing: normal;
+    color:#52796f;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    }
+
+    .subtitle{
+        text-align: center;
+    letter-spacing: normal;
+    word-spacing: normal;
+    color:#000000;
+    margin-bottom: 20px;
+    font-size: 150%;
+    }
+
+    .catalogo{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #tabla{
+        display: none;
+    }
+
+
+    /* Carrito */
+
+    .cart {
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+        background-color:#d3d4d4;
+        border: solid 1px black;
+        border-radius: 20px;
+      }
+      .car-img {
+        width: 80px;
+        height: 80px;
+        margin: 10px;
+      }
+      .producto-carrito {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      .product-details {
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+      }
+      .finalizar {
+        width: 20%;
+      }
+      #remove-product {
+        width: 100px;
+        height: 60px;
+        text-align: center;
+        display: flex;
+        
+      }
+      .total-carrito {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .total {
+        font-weight: bold;
+        font-size: 1.2rem;
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        background: #999999;
+        border-radius: 4px;
+        margin-bottom: 10px;
+      }
+      

@@ -1,0 +1,50 @@
+[
+        {
+        "id": 1,
+        "nombre": "Botines Nike Tiempo Legend 8 Academy TF",
+        "precio": 11.999,
+        "imagen": "Multimedia/niketiempo.png",
+        "talleDisponible":"39,40,41",
+        "color":"Negro y Azul"
+        },
+        {
+        "id": 2,
+        "nombre": "Zapatillas adidas Solar Glide '19",
+        "precio": 14.999,
+        "imagen": "Multimedia/zapatilladidas.png",
+        "talleDisponible":"37,38,39",
+        "color":"Rosa y Blanco"
+        },
+        {
+        "id": 3,
+        "nombre": "Remera Reebok Running Graphic Series Linear",
+        "precio": 6.999,
+        "imagen": "Multimedia/remerareebok.png",
+        "talleDisponible":"S, M, XL",
+        "color":"Negro"
+        },
+        {
+        "id": 4,
+        "nombre": "Buzo Under Armour Apollo De Hombre",
+        "precio": 5.899,
+        "imagen": "Multimedia/buzoUnder.png",
+        "talleDisponible":"M, L, XXL",
+        "color":"Negro"
+        },
+        {
+        "id": 5,
+        "nombre": "Bolso Puma Gym Challenger Duffle 36 L Unisex",
+        "precio": 7.999,
+        "imagen": "./Multimedia/bolsoPuma.png",
+        "talleDisponible":"36 litros",
+        "color":"Negro"
+        },
+        {
+        "id": 6,
+        "nombre": "Short Nike Sportswear Woven / Dry Academy",
+        "precio": 4.500,
+        "imagen": "./Multimedia/shortNike.png",
+        "talleDisponible":"S, M, L",
+        "color":"Negro"
+        }
+    ]
