@@ -13,7 +13,7 @@ html{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-image: url(../Multimedia/nav2.png);
+    background-image: url(../multimedia/nav2.png);
     background-repeat: repeat;
 ;
 }
@@ -38,7 +38,7 @@ html{
 }
 body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-image: url(../Multimedia/fondo5.png);
+    background-image: url(../multimedia/fondo5.png);
 }
 
 .publicidad{
@@ -63,7 +63,7 @@ body{
     }
 
     .producto{
-        background-image: url(../Multimedia/fondo5.png);
+        background-image: url(../multimedia/fondo5.png);
         display: flex;
         flex-direction: column;
         justify-content:stretch;
